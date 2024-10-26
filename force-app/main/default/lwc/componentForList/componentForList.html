@@ -1,0 +1,15 @@
+<template>
+    <div class="slds-grid slds-wrap" style="padding: 1mm;">
+        <template for:each={listOfRecord} for:item="rec">
+        <div key={rec} class="slds-col slds-size_4-of-12" style="padding: 1mm;">
+            <lightning-card  title={rec}>
+
+                <p class="slds-p-horizontal_small">Card Body (custom component)</p>
+                
+            </lightning-card>
+        </div>
+    </template>
+
+    </div>
+    
+</template>
